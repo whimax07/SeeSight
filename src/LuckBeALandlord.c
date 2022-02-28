@@ -28,8 +28,6 @@ typedef enum Symbol Grid[WIDTH][HIGHT];
  * symbol you are at. */
 const int MULTI_MAP[NUMBER_OF_TYPES][NUMBER_OF_TYPES] = {{1, 5}, {1, 1}};
 
-int SLOW_COUNT = 0;
-
 
 
 char * grid_to_string(char buffer[STRING_BUFFER_SIZE], Grid grid) {
