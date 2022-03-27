@@ -10,7 +10,7 @@
 
 
 #define WIDTH 5
-#define HIGHT 4
+#define HIGHT 5
 #define STRING_BUFFER_SIZE 8192
 
 #define FLOWER_BASE 1
@@ -37,12 +37,14 @@ char * grid_to_string(char buffer[STRING_BUFFER_SIZE], Grid grid) {
         "[%d, %d, %d, %d, %d]\n"
         "[%d, %d, %d, %d, %d]\n"
         "[%d, %d, %d, %d, %d]\n"
+        "[%d, %d, %d, %d, %d]\n"
     ;
     sprintf(buffer, board_format, 
         grid[0][0], grid[1][0], grid[2][0], grid[3][0], grid[4][0],
         grid[0][1], grid[1][1], grid[2][1], grid[3][1], grid[4][1],
         grid[0][2], grid[1][2], grid[2][2], grid[3][2], grid[4][2],
-        grid[0][3], grid[1][3], grid[2][3], grid[3][3], grid[4][3]
+        grid[0][3], grid[1][3], grid[2][3], grid[3][3], grid[4][3],
+        grid[0][4], grid[1][4], grid[2][4], grid[3][4], grid[4][4]
     );
 
     return buffer;
