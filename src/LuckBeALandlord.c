@@ -2,7 +2,8 @@
 // A brute force method to calculate the maximum score obtainable in the game "Luck Be A Landlord"
 // using a flower based plan and without items.
 
-// This looks a bit odd on reflection. Why not use a macro in at_flower? 
+// This looks a bit odd on reflection. Why not use a macro in at_flower? Also hard coding
+// grid_to_string is some kind of bad choice.
 
 #include <stdbool.h>
 #include <stdlib.h>
