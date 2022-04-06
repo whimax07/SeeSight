@@ -1,4 +1,7 @@
+// By Max Whitehouse, 02/04/2022.
 // A quick check of risk odds and strats.
+// If a force of between 1 and 'max_attackers' attacks a sequence of cells with defenders and print the probably 
+// calculated by brute force.
 #include <math.h>
 #include <stdbool.h>
 #include <stdio.h>
