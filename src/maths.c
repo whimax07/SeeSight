@@ -1,3 +1,6 @@
+// Max Whitehouse 28/02/2022.
+// A way to do some simple maths on the command line. (Not tested just something to 
+// get a feel for writing C.)
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
